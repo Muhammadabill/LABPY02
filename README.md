@@ -41,19 +41,19 @@ akhir (nilai_tugas 0.2) + (nilai_uts 0.4) + (nilai_uas 0.4)
 ## STRUKTUR PROGRAM
 
 Input:
-• Nama siswa
-• Nilai UTS (float)
-• Nilai UAS (float)
-• Nilai Tugas (float)
+- Nama siswa
+- Nilai UTS (float)
+- Nilai UAS (float)
+- Nilai Tugas (float)
 
 Output :
-• Nama siswa
-• Nilai UTS
-• Nilai UAS
-• Nilai Tugas
-• Nilai Akhir
-• Nilai Huruf
-• Keterangan ("LULUS" atau "TIDAK LULUS")
+- Nama siswa
+- Nilai UTS
+- Nilai UAS
+- Nilai Tugas
+- Nilai Akhir
+- Nilai Huruf
+- Keterangan ("LULUS" atau "TIDAK LULUS")
 
 ## BERIKUT HASIL VISUAL CODE
 
