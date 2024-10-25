@@ -3,3 +3,9 @@
 # MUHAMMAD NABIL SATRIYA SUNTARA
 # 312410365
 # TI.24.A4
+
+## LATIHAN 1
+### MEMBUAT PROGRAM MENENTUKAN NILAI AKHIR
+
+![Screenshot 2024-10-25 164114](https://github.com/user-attachments/assets/7ef38b85-b2ba-4ac5-ba67-aa5d286a8d28)
+
