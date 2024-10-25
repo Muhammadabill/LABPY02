@@ -40,13 +40,13 @@ akhir (nilai_tugas 0.2) + (nilai_uts 0.4) + (nilai_uas 0.4)
 
 ## STRUKTUR PROGRAM
 
-  • Input:
+Input:
 • Nama siswa
 • Nilai UTS (float)
 • Nilai UAS (float)
 • Nilai Tugas (float)
 
-  • Output :
+Output :
 • Nama siswa
 • Nilai UTS
 • Nilai UAS
