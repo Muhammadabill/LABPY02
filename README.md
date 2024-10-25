@@ -7,10 +7,80 @@
 ## LATIHAN 1
 ### MEMBUAT PROGRAM MENENTUKAN NILAI AKHIR
 
-![Screenshot 2024-10-25 164114](https://github.com/user-attachments/assets/7ef38b85-b2ba-4ac5-ba67-aa5d286a8d28)
-
 ## Deskripsi
 Program ini dirancang untuk menghitung nilai akhir mahasiswa berdasarkan beberapa komponen penilaian, seperti nilai UTS (Ujian Tengah Semester), UAS (Ujian Akhir Semester), dan tugas. Program akan menampilkan nilai akhir dan memberikan keterangan mengenai status kelulusan.
 - 20% untuk nilai tugas
 - 40% untuk nilai UTS
 - 40% untuk nilau UAS
+
+Program ini juga menampilkan nilai huruf berdasarkan nilai akhir, serta menentukan apakah siswa "LULUS" atau "TIDAK LULUS" berdasarkan kriteria nilai akhir.
+
+## Cara Kerja Program
+
+1. Program meminta input dari pengguna untuk nama, nilai UTS, nilai UAS, dan nilai tugas.
+
+2. Program kemudian menghitung nilai akhir dengan rumus:
+
+akhir (nilai_tugas 0.2) + (nilai_uts 0.4) + (nilai_uas 0.4)
+
+3. Setelah nilai akhir dihitung, program menentukan keterangan "LULUS" atau "TIDAK LULUS" dengan syarat
+
+• LULUS jika nilai akhir lebih dari 60.
+• TIDAK LULUS jika nilai akhir kurang dari atau sama dengan 60.
+
+4. Program juga mengonversi nilai akhir menjadi nilai huruf dengan kriteria:
+
+• A jika nilai akhir lebih dari 80
+• B jika nilai akhir lebih dari 70
+• C jika nilai akhir lebih dari 50
+• D jika nilai akhir lebih dari 40
+• E jika nilai akhir lebih dari atau sama dengan 40
+
+5. Program Kemudian Mencetak hasilnya ke layar
+
+## STRUKTUR PROGRAM
+
+  • Input:
+• Nama siswa
+• Nilai UTS (float)
+• Nilai UAS (float)
+• Nilai Tugas (float)
+
+  • Output :
+• Nama siswa
+• Nilai UTS
+• Nilai UAS
+• Nilai Tugas
+• Nilai Akhir
+• Nilai Huruf
+• Keterangan ("LULUS" atau "TIDAK LULUS")
+
+## BERIKUT HASIL VISUAL CODE
+
+![Screenshot 2024-10-25 164114](https://github.com/user-attachments/assets/7ef38b85-b2ba-4ac5-ba67-aa5d286a8d28)
+
+## LATIHAAN 2
+### MEMBUAT PROGRAM MENAMPILKAN STATUS GAJI KARYAWAN
+### DESKRIPSI
+Tujuan Program: Program ini dirancang untuk menerima input gaji dari pengguna (karyawan) dan menampilkan status gaji berdasarkan kategori tertentu. Program ini dapat membantu karyawan memahami posisi gaji mereka, apakah termasuk kategori rendah, menengah, atau tinggi.
+
+## CARA KERJA PROGRAM
+Program meminta input dari pengguna untuk gaji.
+
+1. Program meminta pengguna untuk memasukkan nama, gaji pokok, dan tunjangan.
+2. Jika gaji lebih dari 3.000.000, program akan mencetak "Gaji sudah di atas UMR". Jika tidak, akan mencetak "Gaji belum UMR".
+3. Jika pengguna sudah berkeluarga, program akan mencetak "Wajib ikutan asuransi dan menabung untuk pensiun", namun jika belum berkeluarga, akan mencetak "Tidak perlu ikutan asuransi"
+
+## STRUKTUR PROGRAM
+- Input
+    - Gaji (int)
+    - Status berkeluarga (Y/T)
+    - Status Kepememilikan (Y/T)
+- Output
+    - Apakah gaji sudah di atas UMR atau belum
+    - Kewajiban mengikuti asuransi jika sudah berkeluarga
+    - Kewajiban membayar pajak rumah jika punya rumah
+
+## BERIKUT HASIL VISUAL CODE
+
+![Screenshot 2024-10-25 162850](https://github.com/user-attachments/assets/b711671f-2763-4ed1-a676-68d58cc811fc)
