@@ -7,7 +7,7 @@
 ## LATIHAN 1
 ### MEMBUAT PROGRAM MENENTUKAN NILAI AKHIR
 
-## Deskripsi
+## DESKRIPSI
 Program ini dirancang untuk menghitung nilai akhir mahasiswa berdasarkan beberapa komponen penilaian, seperti nilai UTS (Ujian Tengah Semester), UAS (Ujian Akhir Semester), dan tugas. Program akan menampilkan nilai akhir dan memberikan keterangan mengenai status kelulusan.
 - 20% untuk nilai tugas
 - 40% untuk nilai UTS
@@ -15,7 +15,7 @@ Program ini dirancang untuk menghitung nilai akhir mahasiswa berdasarkan beberap
 
 Program ini juga menampilkan nilai huruf berdasarkan nilai akhir, serta menentukan apakah siswa "LULUS" atau "TIDAK LULUS" berdasarkan kriteria nilai akhir.
 
-## Cara Kerja Program
+## CARA KERJA PROGRAM
 
 1. Program meminta input dari pengguna untuk nama, nilai UTS, nilai UAS, dan nilai tugas.
 
@@ -60,8 +60,9 @@ Output :
 ![Screenshot 2024-10-25 164114](https://github.com/user-attachments/assets/7ef38b85-b2ba-4ac5-ba67-aa5d286a8d28)
 
 ## LATIHAAN 2
+
 ### MEMBUAT PROGRAM MENAMPILKAN STATUS GAJI KARYAWAN
-### DESKRIPSI
+## DESKRIPSI
 Tujuan Program: Program ini dirancang untuk menerima input gaji dari pengguna (karyawan) dan menampilkan status gaji berdasarkan kategori tertentu. Program ini dapat membantu karyawan memahami posisi gaji mereka, apakah termasuk kategori rendah, menengah, atau tinggi.
 
 ## CARA KERJA PROGRAM
@@ -84,3 +85,27 @@ Program meminta input dari pengguna untuk gaji.
 ## BERIKUT HASIL VISUAL CODE
 
 ![Screenshot 2024-10-25 162850](https://github.com/user-attachments/assets/b711671f-2763-4ed1-a676-68d58cc811fc)
+
+## LATIHAAN 3
+
+### PENGGUNAAN KONDISI OR PROGRAM MEMBANDINGKAN 3 INPUT BILANGAN
+## DESKRIPSI
+Kondisi OR adalah operator logika yang digunakan untuk mengevaluasi dua atau lebih ekspresi kondisi. Dalam bahasa pemrograman Python, operator ini memungkinkan kita untuk memeriksa beberapa kondisi sekaligus. Jika salah satu atau lebih dari kondisi tersebut bernilai True, maka keseluruhan pernyataan akan dianggap True. Sebaliknya, jika semua kondisi bernilai False, maka hasilnya adalah False.Penggunaan kondisi OR sangat berguna dalam berbagai situasi di mana beberapa kondisi perlu dievaluasi. Operator ini memudahkan pengambilan keputusan dalam logika program, sehingga membuat kode menjadi lebih ringkas dan efisien
+
+## CARA KERJA PROGRAM
+1. Meminta pengguna untuk memasukkan tiga bilangan: a, b, dan c. Program kemudian memeriksa apakah salah satu dari bilangan tersebut negatif atau sama dengan nol. Jika salah satu dari kondisi ini terpenuhi, program akan memberi tahu pengguna bahwa setidaknya satu bilangan bukan bilangan positif.
+2. Memeriksa apakah a, b, atau c negatif.
+3. Memeriksa apakah a, b, atau c sama dengan nol. Semua kondisi ini dihubungkan dengan operator or, sehingga jika salah satu kondisi bernilai true, blok kode dalam if akan dijalankan.
+
+## STRUKTUR PROGRAM
+Input :
+- Masukkan bilangan A
+- Masukan bilangan B 
+- Masukan bilangan C
+
+Output :
+- Benar
+- Salah
+
+  ## BERIKUT HASIL VISUAL CODE
+  ![Screenshot 2024-10-25 163234](https://github.com/user-attachments/assets/197aa490-5708-435d-b989-59a28f69db83)
